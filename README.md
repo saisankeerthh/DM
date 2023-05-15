@@ -31,7 +31,10 @@ $ python featuremodel.py
 Use the values obtained from featuremodel.py in model_training.py to train the models and save the joblib files.
 # Run the model_training.py
 $ python model_training.py
+
 Run evaluation.py to evaluate the trained models and visualize the results and performance metrics.
+# Run the evaluation.py
+$ python evaluation.py
 
 File Descriptions
 featuremodel.py: This script identifies the optimal number of features required by PCA, KBest, and RFECV.
