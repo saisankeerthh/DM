@@ -10,7 +10,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import joblib
-#from feature_selection import best_k_selectkbest,best_k_rfe,best_n_pca
+#from featuremodel import best_k_selectkbest,best_k_rfe,best_n_pca
 # Load the dataset
 df = pd.read_csv("https://raw.githubusercontent.com/saisankeerthh/DM/main/dataset_full.csv")
 df_original = df.copy()  # Make a copy of original dataframe for later use
