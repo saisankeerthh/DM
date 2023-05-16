@@ -26,9 +26,13 @@ prettytable
 Run featuremodel.py to identify the number of features required by PCA, KBest, and RFECV. This process can be time-consuming due to the extensive computations required.
 # Run the featuremodel.py
 $ python featuremodel.py
+
 #As the Model Takes Long time to run I have integrated the Values received from this script in to the next file Directly
 
 Use the values obtained from featuremodel.py in model_training.py to train the models and save the joblib files.
+#If We want to use the Values Directly generated from the Featuremodel.py uncomment #from feature_selection import best_k_selectkbest,best_k_rfe,best_n_pca from the model_training File and Comment these Variables best_k_selectkbest = 49,
+best_n_pca = 53,best_k_rfe = 55.
+
 # Run the model_training.py
 $ python model_training.py
 
