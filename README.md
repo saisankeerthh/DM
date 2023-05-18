@@ -16,7 +16,7 @@ Data Source: https://data.mendeley.com/datasets/c2gw7fy2j4/3
 ## 2. Installation Instructions
 To clone and operate this application, ensure that you have Git and Python, which includes pip, installed on your device. Use your command line for this process.
 
-#install required Dependencies
+# install required Dependencies
 $ pip install -r requirements.txt
 
 Execute `featuremodel.py` to determine the number of features needed by PCA, KBest, and RFECV. Please note that this process can be quite time-intensive due to the extensive computations involved.
