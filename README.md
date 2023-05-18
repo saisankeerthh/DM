@@ -16,14 +16,8 @@ Data Source: https://data.mendeley.com/datasets/c2gw7fy2j4/3
 ## 2. Installation Instructions
 To clone and operate this application, ensure that you have Git and Python, which includes pip, installed on your device. Use your command line for this process.
 
-This project relies on the following Python libraries:
-- pandas
-- numpy
-- sklearn
-- joblib
-- warnings
-- matplotlib
-- prettytable
+#install required Dependencies
+$ pip install -r requirements.txt
 
 Execute `featuremodel.py` to determine the number of features needed by PCA, KBest, and RFECV. Please note that this process can be quite time-intensive due to the extensive computations involved.
 
@@ -61,7 +55,8 @@ $ python evaluation.py
 | Project Understanding| Megha, Venkatasai, Sankeerth|
 | Data Understanding   | Venkatasai, Sankeerth      |
 | Data Collection      | Megha                      |
-| Data Preparation     | Megha, Venkatasai, Sankeerth|
+| Data Preparation     | Megha, Sankeerth           |
+| Data Analysis        | Venkatsai
 | Modelling            | Megha, Venkatasai, Sankeerth|
 | Evaluation & Results | Sankeerth                  |
 | Documentation        | Megha, Venkatasai          |
