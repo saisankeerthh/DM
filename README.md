@@ -55,7 +55,7 @@ $ python evaluation.py
 - `evaluation.py`: This script loads the trained models and evaluates their performance, providing comprehensive statistical results and graphical visualizations.
 
 
-#Team Contribution:
+# Team Contribution:
 | Task                 | Team Members               |
 |----------------------|----------------------------|
 | Project Understanding| Megha, Venkatasai, Sankeerth|
