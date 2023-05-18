@@ -35,11 +35,13 @@ Utilize the values derived from `featuremodel.py` in `model_training.py` to trai
 If you wish to use the values directly generated from `featuremodel.py`, uncomment `#from feature_selection import best_k_selectkbest, best_k_rfe, best_n_pca` from the `model_training.py` file and comment these variables `best_k_selectkbest = 49`, `best_n_pca = 53`, `best_k_rfe = 55`.
 
 Run model_training.py
+
 $ python model_training.py
 
 Run `evaluation.py` to evaluate the performance of the trained models and visualize the results and performance metrics.
 
 Run evaluation.py
+
 $ python evaluation.py
 
 <a name="file-descriptions"></a>
