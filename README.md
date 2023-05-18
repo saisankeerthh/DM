@@ -10,6 +10,8 @@
 ## 1. Project Overview
 In the contemporary era of e-commerce, the unauthorized intrusion into sensitive data is rapidly increasing, resulting in significant financial implications for individuals and businesses alike. This project is designed to tackle the persistent problem of phishing websites, deploying sophisticated machine learning methodologies to accurately and efficiently detect such malicious attempts.
 
+Data Source: https://data.mendeley.com/datasets/c2gw7fy2j4/3
+
 <a name="installation-instructions"></a>
 ## 2. Installation Instructions
 To clone and operate this application, ensure that you have Git and Python, which includes pip, installed on your device. Use your command line for this process.
@@ -51,4 +53,18 @@ $ python evaluation.py
 - `featuremodel.py`: This script identifies the optimal number of features required by PCA, KBest, and RFECV.
 - `model_training.py`: This script uses the output from `featuremodel.py` to train the machine learning models and saves them as joblib files.
 - `evaluation.py`: This script loads the trained models and evaluates their performance, providing comprehensive statistical results and graphical visualizations.
+
+
+#Team Contribution:
+| Task                 | Team Members               |
+|----------------------|----------------------------|
+| Project Understanding| Megha, Venkatasai, Sankeerth|
+| Data Understanding   | Venkatasai, Sankeerth      |
+| Data Collection      | Megha                      |
+| Data Preparation     | Megha, Venkatasai, Sankeerth|
+| Modelling            | Megha, Venkatasai, Sankeerth|
+| Evaluation & Results | Sankeerth                  |
+| Documentation        | Megha, Venkatasai          |
+
+
 
