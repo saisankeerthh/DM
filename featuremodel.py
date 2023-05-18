@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import f1_score
 
 # Load data
-df = pd.read_csv("/content/dataset_full.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/saisankeerthh/DM/main/dataset_full.csv")
 
 # Clean data (if necessary)
 df.replace([np.inf, -np.inf], np.nan, inplace=True)
