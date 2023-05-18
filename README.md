@@ -24,8 +24,10 @@ This project relies on the following Python libraries:
 - prettytable
 
 Execute `featuremodel.py` to determine the number of features needed by PCA, KBest, and RFECV. Please note that this process can be quite time-intensive due to the extensive computations involved.
-Run featuremodel.py
+
+# Run featuremodel.py
 $ python featuremodel.py
+
 Considering the extended runtime of the Model, the values derived from this script have been directly incorporated into the subsequent file.
 
 <a name="application-usage"></a>
@@ -34,15 +36,15 @@ Utilize the values derived from `featuremodel.py` in `model_training.py` to trai
 
 If you wish to use the values directly generated from `featuremodel.py`, uncomment `#from feature_selection import best_k_selectkbest, best_k_rfe, best_n_pca` from the `model_training.py` file and comment these variables `best_k_selectkbest = 49`, `best_n_pca = 53`, `best_k_rfe = 55`.
 
-Run model_training.py
-
+# Run model_training.py
 $ python model_training.py
+
 
 Run `evaluation.py` to evaluate the performance of the trained models and visualize the results and performance metrics.
 
-Run evaluation.py
-
+# Run evaluation.py
 $ python evaluation.py
+
 
 <a name="file-descriptions"></a>
 ## 4. File Descriptions
